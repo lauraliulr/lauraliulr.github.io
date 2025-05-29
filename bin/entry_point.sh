@@ -5,10 +5,6 @@ echo "Entry point script running"
 
 CONFIG_FILE=_config.yml
 
-jekyll_pid=$(pgrep -f jekyll)
-kill -KILL $jekyll_pid
-
-
 # Function to manage Gemfile.lock
 manage_gemfile_lock() {
     git config --global --add safe.directory '*'
@@ -30,12 +26,40 @@ start_jekyll() {
 
 start_jekyll
 
-while true; do
-    inotifywait -q -e modify,move,create,delete $CONFIG_FILE
-    if [ $? -eq 0 ]; then
-        echo "Change detected to $CONFIG_FILE, restarting Jekyll"
-        jekyll_pid=$(pgrep -f jekyll)
-        kill -KILL $jekyll_pid
-        start_jekyll
+SY=$(uname -r)
+
+if [[ $SY = *"WSL"* ]]; then
+  SUM=$(md5sum "$CONFIG_FILE")
+  while true; do
+    sleep 2
+    SUMN=$(md5sum "$CONFIG_FILE")
+    if [ "$SUM" != "$SUMN" ]; then
+    SUM=$SUMN
+    echo "Change detected to $CONFIG_FILE, restarting Jekyll"
+
+    jekyll_pid=$(pgrep -f jekyll)
+    kill -KILL $jekyll_pid
+
+    start_jekyll
     fi
+  done
+else
+
+while true; do
+
+  inotifywait -q -e modify,move,create,delete $CONFIG_FILE
+
+  if [ $? -eq 0 ]; then
+ 
+    echo "Change detected to $CONFIG_FILE, restarting Jekyll"
+
+    jekyll_pid=$(pgrep -f jekyll)
+    kill -KILL $jekyll_pid
+
+    start_jekyll
+
+  fi
+
 done
+
+fi

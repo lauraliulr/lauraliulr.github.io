@@ -46,6 +46,47 @@
       "note": "Transferred to Physics"
     }
   ],
+
+  "Academic Experience": [
+    {
+      "organization": "Chip Hub for Integrated Photonics Xplore (CHIPX), Shanghai Jiao Tong University",
+      "position": "Speaker",
+      "location": "Shanghai",
+      "startDate": "2025-05",
+      "endDate": "2025-05",
+      "summary": "Delivered a talk on Quantum Cryptography as an invited speaker by Prof. Xianmin Jin."
+    },
+    {
+      "organization": "International Congress of Basic Science (ICBS) 2024",
+      "position": "Participant",
+      "location": "Tsinghua University",
+      "startDate": "2024",
+      "endDate": "2024",
+      "summary": "Participated in the ICBS 2024 hosted by Tsinghua University."
+    },
+    {
+      "organization": "University of Hong Kong, Department of Physics",
+      "position": "Speaker",
+      "startDate": "2022-08",
+      "endDate": "2022-08",
+      "summary": "Presented on Thermal State Preparation."
+    },
+    {
+      "organization": "Institute of Physics, Chinese Academy of Sciences",
+      "position": "Academic Visitor",
+      "startDate": "2020-01",
+      "endDate": "2020-02",
+      "summary": "Conducted an academic visit to the institute."
+    },
+    {
+      "organization": "Pengcheng Lab",
+      "position": "Participant",
+      "startDate": "2019",
+      "endDate": "2019",
+      "summary": "Participated in the QIP (Quantum Information Processing) event."
+    }
+  ],
+
   "work": [
     {
       "company": "LLM Application Company",
@@ -97,45 +138,6 @@
       "summary": "Collaborated with Dr. Qiancheng Wang on a 3D construction project. Contributed to establishing a reading corner at University of Sichuan and a 3D-printed building with support from the local government of Ya'an, Sichuan."
     }
   ],
-  "volunteer": [
-    {
-      "organization": "Chip Hub for Integrated Photonics Xplore (CHIPX)",
-      "position": "Speaker",
-      "location": "Shanghai Jiao Tong University",
-      "startDate": "2025-05",
-      "endDate": "2025-05",
-      "summary": "Delivered a talk on Quantum Cryptography as an invited speaker by Prof. Xianmin Jin."
-    },
-    {
-      "organization": "International Congress of Basic Science (ICBS) 2024",
-      "position": "Participant",
-      "location": "Tsinghua University",
-      "startDate": "2024",
-      "endDate": "2024",
-      "summary": "Participated in the ICBS 2024 hosted by Tsinghua University."
-    },
-    {
-      "organization": "University of Hong Kong, Department of Physics",
-      "position": "Speaker",
-      "startDate": "2022-08",
-      "endDate": "2022-08",
-      "summary": "Presented on Thermal State Preparation."
-    },
-    {
-      "organization": "Institute of Physics, Chinese Academy of Sciences",
-      "position": "Academic Visitor",
-      "startDate": "2020-01",
-      "endDate": "2020-02",
-      "summary": "Conducted an academic visit to the institute."
-    },
-    {
-      "organization": "Pengcheng Lab",
-      "position": "Participant",
-      "startDate": "2019",
-      "endDate": "2019",
-      "summary": "Participated in the QIP (Quantum Information Processing) event."
-    }
-  ],
   "teaching": [
     {
       "course": "PHYS8352 Quantum Information",
@@ -162,46 +164,6 @@
       "date": "2017-2021",
       "awarder": "University of Hong Kong",
       "summary": "Recognized for academic excellence throughout undergraduate studies."
-    },
-    {
-      "title": "National Academic Olympiad - Second Prize in Physics",
-      "date": "2016",
-      "summary": "Awarded during high school."
-    },
-    {
-      "title": "National Academic Olympiad - Second Prize in Mathematics",
-      "date": "2016",
-      "summary": "Awarded during high school."
-    },
-    {
-      "title": "National Academic Olympiad - Second Prize in Informatics in province",
-      "date": "2013",
-      "summary": "Awarded during middle school."
-    },
-    {
-      "title": "USTC Young Talent Program College Entrance Exam",
-      "date": "2016",
-      "awarder": "University of Science and Technology of China",
-      "summary": "Provincial first-place winner."
-    },
-    {
-      "title": "Hong Kong-wide Innovation and Entrepreneurship Competition",
-      "date": "2018",
-      "summary": "Achieved second prize with a ranking of fifth."
-    }
-  ],
-  "skills": [
-    {
-      "name": "Quantum Computing",
-      "keywords": ["Quantum Cryptography", "Quantum Marginal Problem", "QMA-complete Problems"]
-    },
-    {
-      "name": "Physics",
-      "keywords": ["Quantum Information", "Thermal State Preparation", "Shor's Algorithm"]
-    },
-    {
-      "name": "Interdisciplinary Research",
-      "keywords": ["Architecture", "Finance", "Sociological Research"]
     }
   ],
   "languages": [
@@ -226,38 +188,46 @@
       "fluency": "Basic/Studying"
     }
   ],
-  "interests": [
-    {
-      "name": "Quantum Cryptography"
-    },
-    {
-      "name": "Quantum Computing"
-    },
-    {
-      "name": "Interdisciplinary Studies"
-    }
-  ],
   "projects": [
     {
       "name": "Thesis Research",
-      "description": "A New Approach to Modern Security via Quantum Cryptography. This work focuses on developing quantum cryptographic schemes using QMA‐complete problems, with an emphasis on addressing the quantum marginal problem.",
-      "highlights": ["Novel approach to security", "Integration of quantum cryptography and advanced computational problems"]
+      "summary": "A New Approach to Modern Security via Quantum Cryptography.",
+      "highlights": ["Integration of quantum cryptography and advanced computational problems"]
     },
     {
       "name": "360 in Sham Shui Po",
-      "description": "Produced a documentary interviewing local residents in Hong Kong. The film was screened at the United Nations General Assembly in New York (2019).",
-      "highlights": []
+      "summary": "Produced a documentary interviewing local residents in Hong Kongm named 360 in Sham Shui Po.",
+      "highlights": ["The film was screened at the United Nations General Assembly in New York (2019)."]
     },
     {
       "name": "CSSA Event Organization",
-      "description": "Organized major events as a member of the Chinese Students and Scholars Association, including the Class of 2018 Graduation Banquet and the Ocean Park Spring Trip for Mainland Students.",
-      "highlights": []
-    }
-  ],
-  "references": [
+      "summary": "Organized major events as a member of the Chinese Students and Scholars Association.",
+      "highlights": ["The Class of 2018 Graduation Banquet", "The Ocean Park Spring Trip for Mainland Students."]
+    },
     {
-      "name": "Available upon request",
-      "reference": ""
+      "name": "National Academic Olympiad - Second Prize in Physics",
+      "description": "Awarded in 2016.",
+      "highlights": ["Awarded in 2016."]
+    },
+    {
+      "name": "National Academic Olympiad - Second Prize in Mathematics",
+      "description": "Awarded in 2016",
+      "highlights": ["Awarded in 2016."]
+    },
+    {
+      "name": "National Academic Olympiad in province - Second Prize in Informatics",
+      "description": "Awarded in 2013",
+      "highlights": ["Awarded in 2013."]
+    },
+    {
+      "name": "USTC Young Talent Program College Entrance Exam",
+      "description": "Provincial first-place winner in 2016",
+      "highlights": ["Provincial first-place winner in 2016"]
+    },
+    {
+      "name": "Hong Kong-wide Innovation and Entrepreneurship Competition",
+      "description": "Achieved second prize with a ranking of fifth in 2018.",
+      "highlights": ["Achieved second prize with a ranking of fifth in 2018."]
     }
   ]
 }

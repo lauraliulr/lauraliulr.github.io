@@ -1,29 +1,38 @@
 ---
 layout: about
 title: About
-permalink: /about/
+permalink: /
 subtitle: "Ph.D. Candidate in Quantum Computing & Information, University of Hong Kong"
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: true
+  image_circular: false
 more_info: >
   <p><strong>Liu Leran</strong></p>
-  <p>Ph.D. Candidate, Physics (Quantum Computing and Information)</p>
+  <p>Ph.D. Candidate, Physics bund(Quantum Computing and Information)</p>
   <p>University of Hong Kong</p>
   <p>Tel: (+852) 6096 5082</p>
   <p>Email: leran@connect.hku.hk</p>
   <p>Email: laurenswonderland99@gmail.com</p>
-selected_papers: true
+selected_papers: false
 social: true
 announcements:
-  enabled: true
+  enabled: false
   scrollable: true
   limit: 5
 latest_posts:
-  enabled: true
+  enabled: false
   scrollable: true
   limit: 3
 ---
 
-I am Liu Leran, currently a Ph.D. candidate specializing in quantum computing and information at the University of Hong Kong. My research is dedicated to developing innovative quantum cryptographic schemes using QMA‐complete problems, with a particular focus on the quantum marginal problem—an essential issue in establishing consistency among local density matrices.
+I am pursuing Ph.D degree in quantum computing and information, focusing on the development of quantum
+cryptographic schemes via Quantum Merlin-Arthur (QMA)-complete problems, in particular, the quantum
+marginal problem or the consistency of local density matrices.
+
+Before transitioning into the physics community, I engaged in interdisciplinary work spanning architecture,
+finance, and other fields. I highly value intellectual exchanges with experts across disciplines and actively seek
+to broaden my perspectives.
+
+I am multilingual—fluent in Mandarin, English, Japanese, and Cantonese and is
+currently studying French.
