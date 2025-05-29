@@ -5,6 +5,10 @@ echo "Entry point script running"
 
 CONFIG_FILE=_config.yml
 
+jekyll_pid=$(pgrep -f jekyll)
+kill -KILL $jekyll_pid
+
+
 # Function to manage Gemfile.lock
 manage_gemfile_lock() {
     git config --global --add safe.directory '*'
