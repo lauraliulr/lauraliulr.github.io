@@ -3,8 +3,8 @@
 # -----------------------------------------------------------------------------
 
 title: blank # the website title (if blank, full name will be used instead)
-first_name: Leran
-middle_name: Laura
+first_name:
+middle_name: Leran
 last_name: Liu
 contact_note: >
   You can even add a little note about which of these is the best way to reach you.
