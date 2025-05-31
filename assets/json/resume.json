@@ -4,9 +4,8 @@
     "label": "Ph.D. Candidate in Quantum Computing & Information",
     "email": "leran@connect.hku.hk",
     "phone": "(+852) 6096 5082",
-    "summary": "I am pursuing a Ph.D. in quantum computing and information with a focus on developing novel quantum cryptographic schemes via QMA‐complete problems – particularly the quantum marginal problem (consistency of local density matrices). With an interdisciplinary background spanning architecture, finance, and other fields, I value intellectual exchanges across diverse disciplines. I am fluent in Mandarin, English, Japanese, and Cantonese and am currently studying French.",
     "location": {
-      "city": "Sha Tin",
+      "city": "Central and Western",
       "region": "Hong Kong",
       "country": "Hong Kong SAR"
     }
@@ -54,7 +53,7 @@
       "location": "Shanghai",
       "startDate": "2025-05",
       "endDate": "2025-05",
-      "summary": "Delivered a talk on Quantum Cryptography as an invited speaker by Prof. Xianmin Jin."
+      "summary": "Delivered a talk on Quantum Cryptography as an invited speaker by Prof. Xianmin Jin at Chip Hub for Integrated Photonics Xplore (CHIPX), Shanghai Jiao Tong University"
     },
     {
       "company": "International Congress of Basic Science (ICBS) 2024",
@@ -62,28 +61,28 @@
       "location": "Tsinghua University",
       "startDate": "2024",
       "endDate": "2024",
-      "summary": "Participated in the ICBS 2024 hosted by Tsinghua University."
+      "summary": "Participated in the ICBS(International Congress of Basic Science) 2024 hosted by Tsinghua University."
     },
     {
       "company": "University of Hong Kong, Department of Physics",
       "position": "Speaker",
       "startDate": "2022-08",
       "endDate": "2022-08",
-      "summary": "Presented on Thermal State Preparation."
+      "summary": "Presented on Thermal State Preparation at Department of Physics, the University of Hong Kong."
     },
     {
       "company": "Institute of Physics, Chinese Academy of Sciences",
       "position": "Academic Visitor",
       "startDate": "2020-01",
       "endDate": "2020-02",
-      "summary": "Conducted an academic visit to the institute."
+      "summary": "Conducted an academic visit to the institute of Physics, Chinese Academy of Sciences."
     },
     {
       "company": "Pengcheng Lab",
       "position": "Participant",
       "startDate": "2019",
       "endDate": "2019",
-      "summary": "Participated in the QIP (Quantum Information Processing) event."
+      "summary": "Participated in the QIP (Quantum Information Processing) 2019 hostedby Pengcheng lab."
     },
 
     {
